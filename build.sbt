@@ -4,6 +4,7 @@ val scala11 = "2.11.12"
 val scala12 = "2.12.7"
 
 val scalaSettings = Seq(
+  version := "0.1.7",
   scalaVersion := scala12,
   scalacOptions ++= Seq(
     "-target:jvm-1.8",
